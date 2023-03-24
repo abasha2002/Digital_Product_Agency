@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Averta Demo PE Cutted Demo';
+    src: url(./fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(./fonts/FontsFree-Net-ProximaNova-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+    header ul{
+        display: inline !important;
+    }
+    .section1_container p{
+        width: fit-content !important;
+    }
+    .section1_container{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .titles{
+        font-size: 32px !important;
+        margin-bottom: 10px !important;
+    }
+    .section1_container button{
+        width: 100%;
+        margin-bottom: 0 !important;
+    }
+}
+
+header ul{
+    margin-left: auto;
+    gap: 60px;
+}
+
+header a{
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-decoration: none;
+}
+header span{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.1472px;
+    line-height: 33px;
+    color: #000000;
+}
+header p{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27.1472px !important;
+    line-height: 33px;
+    color: #000000 !important;
+}
+header button{
+    background-color: grey !important;
+}
+
+.dots{
+    left: -40px;
+    bottom: 101px;
+    z-index: -1;
+}
+.circle{
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    right: 688px;
+    top: 0;
+    border-radius: 50%;
+    background: #DAE9FF;
+}
+.rectangle{
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    right: 120px;
+    top: 440px;
+    background: #FFF5DB;
+    border-radius: 0px 0px 100px 0px;
+}
+
+.section1_container{
+    padding-top: 123px;
+    padding-bottom: 101px;
+}
+.titles{
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.section1_container p{
+    width: 471px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+    margin-bottom: 33px;
+}
+.section1_container button{
+    background: #2639ED;
+    border: none;
+    border-radius: 60px;
+    padding: 20px 40px;
+    margin-bottom: 119px;
+
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
