@@ -72,6 +72,9 @@ header button{
     bottom: 101px;
     z-index: -1;
 }
+.friends{
+    z-index: -1;
+}
 .circle{
     position: absolute;
     width: 129px;
@@ -80,6 +83,7 @@ header button{
     top: 0;
     border-radius: 50%;
     background: #DAE9FF;
+    z-index: -1;
 }
 .rectangle{
     position: absolute;
@@ -89,6 +93,7 @@ header button{
     top: 440px;
     background: #FFF5DB;
     border-radius: 0px 0px 100px 0px;
+    z-index: -1;
 }
 
 .section1_container{
