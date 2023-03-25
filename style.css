@@ -30,6 +30,31 @@
         width: 100%;
         margin-bottom: 0 !important;
     }
+    .logos{
+        display: block !important;
+        text-align: center;
+    }
+    .logos p{
+        width: fit-content !important;
+        text-align: left !important;
+    }
+    .logos img{
+        display: inline !important;
+        margin-top: 20px !important;
+        margin-right: 10px !important;
+    }
+    .links h3{
+        margin-bottom: 7px !important;
+        margin-top: 20px !important;
+    }
+    .section3{
+        padding: 0 !important;
+        margin-top: 3rem !important;
+    }
+    .business_text{
+        width: fit-content !important;
+    }
+    
 }
 
 header ul{
@@ -103,8 +128,8 @@ header button{
 .titles{
     font-family: 'Averta Demo PE Cutted Demo';
     font-style: normal;
-    font-weight: 400;
     font-size: 40px;
+    font-weight: 600 !important;
     line-height: 49px;
     color: #000000;
     margin-bottom: 40px;
@@ -133,4 +158,180 @@ header button{
     line-height: 25px;
     letter-spacing: 0.065em;
     color: #FFFFFF;
+}
+.logos{
+    display: flex;
+    gap: 60px;
+}
+.amazon{
+    margin-top: 20px;
+}
+.logos p{
+    width: 336px;
+    margin: 0;
+}
+.title2{
+    margin-bottom: 17px !important;
+}
+
+.section3{
+    margin-top: 94px;
+    padding-top: 360px;
+    padding-bottom: 327px;
+}
+.help_container{
+    width: 1047px;
+    height: 619px;
+    top: 140px;
+    background: #F4F9FF;
+    border-radius: 150px 0px 0px 0px;
+    z-index: -1;
+}
+.helping_ideas{
+    width: 308px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    padding: 39px 31px 57px 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colorful_square1{
+    width: 121px;
+    height: 121px;
+    background: #F1F7FF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texts{
+    text-align: center;
+}
+.texts h5{
+    margin-top: 31px;
+    margin-bottom: 27px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+.texts p{
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #757575;
+    margin: 0;
+}
+.pink_circle{
+    border: 8.8px solid #FF007A;
+    background-color: transparent;
+    right: 143px;
+    bottom: 60px;
+    z-index: -2;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.dotts{
+    right: 910px;
+    bottom: 95px;
+    z-index: -2;
+}
+
+.business_text{
+    width: 396px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+}
+.rect{
+    width: 178px;
+    height: 178px;
+    left: 70px;
+    top: 300px;
+    z-index: -1;
+    background: #FFF5DB;
+    border-radius: 0px 0px 100px 0px;
+    transform: rotate(-180deg);
+    }
+
+.section4{
+    margin-top: 146px;
+}
+
+
+hr{
+    border: 1px solid #E4E4E4;
+}
+footer{
+    margin-top: 146px;
+}
+.footer_logo span{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.1472px;
+    line-height: 33px;
+    color: #000000;
+}
+.footer_logo{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27.1472px !important;
+    line-height: 33px;
+    color: #000000 !important;
+    margin-bottom: 26px;
+}
+.footer_description{
+    width: 270px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #565656;
+}
+.links{
+    flex-direction: column;
+    text-align: left;
+}
+.links h3{
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.links a{
+    text-decoration: none;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #000000;
+}
+.last_text{
+    text-align: center;
+}
+.last_text p{
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #A4A4A4;
 }
