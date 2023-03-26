@@ -111,6 +111,7 @@
     }
     .contact_button{
         transform: none !important;
+        width: 100% !important;
     }
     .section6{
         margin-top: 3rem !important;
@@ -121,6 +122,12 @@
     }
     footer{
         margin-top: 3rem !important;
+    }
+    .for_input{
+        margin-left: 0 !important;
+    }
+    #inp{
+        background: none !important;
     }
 }
 
@@ -465,7 +472,7 @@ header button{
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    z-index: -1;
+    z-index: 0;
 }
 .subscribe_title{
     margin-bottom: 17px;
@@ -478,6 +485,9 @@ input{
     width: 479px;
     padding: 30px 230px 30px 34px;
     outline: 0;
+}
+.for_input{
+    margin-left: 180px;
 }
 ::placeholder{
     font-family: 'Averta Demo PE Cutted Demo';
@@ -501,9 +511,25 @@ input{
     border-radius: 60px;
     top: 50%;
     transform: translateY(-50%);
-    right: 180px;
+    right: -110px;
 }
-
+#inp{
+    background: #F4F9FF;
+    border-radius: 75px;
+    height: 292px;
+    display: flex;
+    align-items: center;
+}
+.yellow_rect{
+    background: #FFF5DB;
+    border-radius: 0px 0px 100px 0px;
+    transform: rotate(90deg);
+    bottom: -40px;
+    left: -40px;
+    z-index: -1;
+    width: 178px;
+    height: 178px;
+}
 
 
 hr{
