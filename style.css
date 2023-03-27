@@ -18,6 +18,9 @@
     .section1_container p{
         width: fit-content !important;
     }
+    .sec1_imgs{
+        display: none !important;
+    }
     .section1_container{
         padding-top: 0 !important;
         padding-bottom: 0 !important;
@@ -40,8 +43,20 @@
     }
     .logos img{
         display: inline !important;
-        margin-top: 20px !important;
+        
         margin-right: 10px !important;
+    }
+    #rect{
+        display: none !important;
+    }
+    .helping_ideas{
+        display: none !important;
+    }
+    #pink_circle2{
+        display: none !important;
+    }
+    #video{
+        display: none !important;
     }
     .links h3{
         margin-bottom: 7px !important;
@@ -117,6 +132,9 @@
         margin-top: 3rem !important;
         margin-bottom: 3rem !important;
     }
+    .help_container{
+        background-color: transparent !important;
+    }
     #sec6_div{
         text-align: left !important;
     }
@@ -128,6 +146,21 @@
     }
     #inp{
         background: none !important;
+    }
+    #shape{
+        display: none !important;
+    }
+    #contact_button{
+        display: none !important;
+    }
+    #cont_button{
+        display: inline !important;
+    }
+    #yellow_rect{
+        display: none !important;
+    }
+    .footer_description{
+        width: fit-content !important;
     }
 }
 
@@ -512,6 +545,7 @@ input{
     top: 50%;
     transform: translateY(-50%);
     right: -110px;
+    border: none;
 }
 #inp{
     background: #F4F9FF;
